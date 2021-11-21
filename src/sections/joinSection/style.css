@@ -1,0 +1,45 @@
+.join {
+  padding: 100px 0;
+  background-image: url(../../assets/images/team-bg.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.join-content {
+  display: flex;
+  align-items: center;
+  max-width: 550px;
+  width: 100%;
+  margin: 100px auto;
+  justify-content: space-between;
+}
+.join-content p {
+  max-width: 200px;
+  width: 100%;
+}
+.join-content .arrow {
+  margin: 10px 0 10px 10px;
+  width: 100px;
+}
+
+footer {
+  padding: 200px 0 50px;
+}
+@media (max-width: 768px) {
+  footer {
+    display: none;
+  }
+  .join {
+    background-image: url(../../assets/images/team-bg-mobile.png);
+  }
+  .join .title-text {
+    font-size: 45px;
+  }
+  .join-content {
+    flex-direction: column;
+    margin: 50px auto;
+  }
+  .join-content button {
+    margin-top: 20px;
+  }
+}

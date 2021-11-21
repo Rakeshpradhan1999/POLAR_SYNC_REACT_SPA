@@ -1,0 +1,14 @@
+.title-text {
+  font-size: 100px;
+  background: -webkit-linear-gradient(
+    360deg,
+    rgba(102, 195, 248, 1) 0%,
+    rgba(47, 129, 224, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 104%;
+}

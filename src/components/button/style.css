@@ -1,0 +1,51 @@
+.main-button {
+  background: rgb(255, 150, 56);
+  background: linear-gradient(
+    280deg,
+    rgba(255, 150, 56, 1) 0%,
+    rgba(255, 179, 112, 1) 100%
+  );
+  font-weight: bold;
+  padding: 15px 38px;
+  border-radius: 20px;
+  font-size: 16px;
+  box-shadow: -12px -6px 15px 0px rgba(234, 216, 57, 0.75) inset;
+  -webkit-box-shadow: -12px -6px 15px 0px rgba(234, 216, 57, 0.75) inset;
+  -moz-box-shadow: -12px -6px 15px 0px rgba(234, 216, 57, 0.75) inset;
+  filter: drop-shadow(36px 5px 40px rgba(251, 164, 63, 1));
+  z-index: 1;
+  position: relative;
+}
+.glass-button {
+  font-weight: bold;
+  padding: 15px 38px;
+  border-radius: 14px;
+  font-size: 16px;
+  backdrop-filter: blur(31px);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.outline-button {
+  font-weight: bold;
+  padding: 10px 22px;
+  font-size: 16px;
+  position: relative;
+}
+.outline-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 15px;
+  padding: 2px;
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(102, 195, 248, 1) 0%,
+    rgba(47, 129, 224, 1) 100%
+  );
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}

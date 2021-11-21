@@ -1,0 +1,83 @@
+.news {
+  background-image: url(../../assets/images/partners-bg.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px 0;
+}
+.news .owl-theme {
+  position: relative;
+}
+.news .owl-theme .owl-nav {
+  position: absolute;
+  top: -100%;
+  left: 80%;
+  transform: translateY(50%);
+}
+.news .owl-carousel .owl-nav button.owl-prev,
+.news .owl-carousel .owl-nav button.owl-next {
+  border: 1px solid #7dccf8;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  transition: width 0.5s;
+}
+.news .owl-carousel .owl-nav button.owl-prev:hover,
+.news .owl-carousel .owl-nav button.owl-next:hover {
+  background-color: transparent;
+}
+.news .owl-theme .owl-nav button.owl-next.disabled,
+.news .owl-theme .owl-nav button.owl-prev.disabled {
+  border: 1px solid #7dccf8;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+.twitter-card {
+  background-color: #16202a;
+}
+.twitter-container {
+  position: relative;
+}
+.read-more {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 40%,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(0, 0, 0, 0.9) 60%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  position: absolute;
+  height: 70%;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.read-more-content {
+  color: #03a9f4;
+  cursor: pointer;
+}
+.read-more-content i {
+  font-size: 24px;
+}
+.read-more-content p {
+  font-size: 18px;
+  padding: 10px 0;
+  border-bottom: 2px solid #03a9f4;
+}
+@media (max-width: 768px) {
+  .news .owl-theme .owl-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+}
+@media (max-width: 640px) {
+  .read-more {
+    height: 30%;
+  }
+}

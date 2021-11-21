@@ -1,0 +1,98 @@
+/* PARTNER SECTION */
+.partners {
+  padding: 100px 0;
+  background-image: url(../../assets/images/partners-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.partners .title {
+  text-align: center;
+}
+.partner-logo-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 7px solid #1a456d;
+  border-radius: 30px;
+  height: 210px;
+  align-items: center;
+}
+.partner-logo-wrapper svg {
+  width: 60px;
+  height: 60px;
+}
+.partner-logo-wrapper svg * {
+  width: 100%;
+  height: 100%;
+}
+.partner-card {
+  color: #7dccf8;
+  font-weight: bold;
+  /* transition: all 0.5s; */
+  font-size: 18px;
+  cursor: pointer;
+}
+.partner-card:hover .partner-logo-wrapper {
+  background: rgb(254, 243, 249);
+  background: linear-gradient(
+    180deg,
+    rgba(254, 243, 249, 1) 0%,
+    rgba(243, 197, 222, 1) 100%
+  );
+  border: none;
+}
+.partner-card:hover {
+  color: white;
+}
+.partner-card:hover .partner-logo-wrapper svg * {
+  fill: #ff007a;
+}
+
+.partners-contact {
+  background-image: url(../../assets/images/contact-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 100px;
+}
+.partners-contact .title-text {
+  font-size: 70px;
+}
+.partners-contact button {
+  margin: 20px 0;
+}
+@media (max-width: 768px) {
+  .partners-contact {
+    background-image: url(../../assets/images/contact-bg-2.png);
+  }
+}
+@media (max-width: 560px) {
+  .partners-contact .title-text {
+    font-size: 45px;
+    margin: auto 10px;
+  }
+  .partners-contact .main-button {
+    width: 90%;
+    margin: 20px 5%;
+    filter: none;
+  }
+  .partner-logo-wrapper {
+    height: 130px;
+    border: 5px solid #1a456d;
+    border-radius: 20px;
+  }
+  .partner-logo-wrapper svg {
+    width: 40px;
+    height: 40px;
+  }
+  .partner-card {
+    font-size: 16px;
+  }
+  .title h3 {
+    font-size: 45px;
+  }
+  .title p {
+    font-size: 18px;
+  }
+}

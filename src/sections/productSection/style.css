@@ -1,0 +1,24 @@
+.product {
+  padding: 100px 0;
+  background-image: url(../../assets/images/products-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tab {
+  background-color: #0c0f20;
+}
+.tab.active {
+  background: rgb(208, 128, 255);
+  background: radial-gradient(
+    circle,
+    rgba(208, 128, 255, 1) 0%,
+    rgba(108, 93, 211, 1) 100%
+  );
+}
+
+@media (max-width: 768px) {
+  .product {
+    background-image: url(../../assets/images/products-bg-mobile.png);
+  }
+}

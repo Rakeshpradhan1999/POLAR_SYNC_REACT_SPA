@@ -1,0 +1,38 @@
+.our-networks {
+  padding-bottom: 150px;
+}
+.our-networks h4.title-text {
+  font-size: 45px;
+}
+.networks-imagewrapper {
+  width: 92px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 7px solid rgba(25, 91, 151, 0.5);
+  border-radius: 50%;
+}
+.networks-imagewrapper img {
+  width: 25px;
+  filter: drop-shadow(36px 5px 40px rgba(251, 164, 63, 1));
+}
+.network-btm h3 {
+  max-width: 400px;
+  width: 100%;
+}
+.network-btm p {
+  max-width: 500px;
+}
+
+@media (max-width: 768px) {
+  .network-btm h3 {
+    max-width: 250px;
+  }
+  .network-btm img {
+    width: 100%;
+  }
+  .network-btm p {
+    font-size: 20px;
+  }
+}

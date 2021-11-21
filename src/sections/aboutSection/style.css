@@ -1,0 +1,39 @@
+.about {
+  background-image: url(../../assets/images/partners-bg.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px 0;
+}
+.about-title {
+  font-size: 70px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.about-title span {
+  font-size: 70px;
+}
+.about-btm {
+  background-image: url(../../assets/images/about-btm-image.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.about-btm .title-text {
+  font-size: 70px;
+}
+
+@media (max-width: 768px) {
+  .about-title,
+  .about-btm .title-text {
+    font-size: 45px;
+  }
+  .about-title span {
+    font-size: 45px;
+  }
+  .about-btm {
+    background-image: url(../../assets/images/about-btm-image-mobile.png);
+  }
+}
